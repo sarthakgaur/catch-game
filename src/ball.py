@@ -10,7 +10,7 @@ class Ball(Sprite):
         super().__init__()
 
         # Load the image and get its rect
-        self.image = pygame.image.load('images/ball.jpg')
+        self.image = pygame.image.load('../images/ball.jpg')
         self.rect = self.image.get_rect()
 
         # Get the screen attribute
